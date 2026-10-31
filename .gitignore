@@ -1,0 +1,20 @@
+# Credenciais e configurações sensíveis
+.env
+.env.*
+*.pem
+*.crt
+*.key
+ca.pem
+secrets/
+
+# Backups e dumps do banco (contêm dados e senhas)
+*.sql
+*.zip
+
+# Arquivos do editor e do sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
